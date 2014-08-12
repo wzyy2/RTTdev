@@ -1,0 +1,32 @@
+
+T1060 000:826 SEGGER J-Link V4.80g Log File (0001ms, 0273ms total)
+T1060 000:826 DLL Compiled: Feb 13 2014 20:50:02 (0001ms, 0273ms total)
+T1060 000:826 Logging started @ 2014-06-11 14:19 (0001ms, 0273ms total)
+T1060 000:827 JLINK_SetWarnOutHandler(...) (0000ms, 0273ms total)
+T1060 000:827 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N: 17935099
+Feature(s): RDI,FlashDL,FlashBP,JFlash  returns O.K. (0268ms, 0541ms total)
+T1060 001:095 JLINK_SetErrorOutHandler(...) (0000ms, 0541ms total)
+T1060 001:095 JLINK_ExecCommand("ProjectFile = "C:\Users\chen\Documents\GitHub\rt-thread\myfirmware\gui-test\JLinkSettings.ini"", ...)  returns 0x00 (0002ms, 0543ms total)
+T1060 001:097 JLINK_ExecCommand("Device = STM32F407IG", ...)Device "STM32F407IG" selected (1024 KB flash, 128 KB RAM).  returns 0x00 (0004ms, 0547ms total)
+T1060 001:101 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0547ms total)
+T1060 001:101 JLINK_GetHardwareVersion()  returns 0x13880 (0001ms, 0548ms total)
+T1060 001:102 JLINK_GetDLLVersion()  returns 48007 (0000ms, 0548ms total)
+T1060 001:102 JLINK_GetFirmwareString(...) (0000ms, 0548ms total)
+T1060 001:102 JLINK_GetDLLVersion()  returns 48007 (0000ms, 0548ms total)
+T1060 001:102 JLINK_GetCompileDateTime() (0000ms, 0548ms total)
+T1060 001:102 JLINK_GetFirmwareString(...) (0000ms, 0548ms total)
+T1060 001:102 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0548ms total)
+T1060 001:102 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0001ms, 0549ms total)
+T1060 001:103 JLINK_SetSpeed(10000) (0000ms, 0549ms total)
+T1060 001:105 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0549ms total)
+T1060 001:105 JLINK_Reset()
+  ***** Error: Supply voltage too low (1 Volt is required, Measured: 0.0 Volt).
+Please check target power.STM32F2xxx/STM32F4xxx: Can not attach to CPU. Trying connect under reset.RESET (pin 15) high, but should be low. Please check target hardware.JLINK_GetIdData(...) (0000ms, 0852ms total)
+T1060 001:408 JLINK_GetIdData(...) (0000ms, 0852ms total)
+T1060 001:423 JLINK_GetFirmwareString(...) (0000ms, 0852ms total)
+T1060 015:124 JLINK_Close() (0001ms, 0853ms total)
+T1060 015:124  (0002ms, 0854ms total)
+T1060 015:124 Closed (0002ms, 0854ms total)
